@@ -1,11 +1,29 @@
-<x-app-layout>
+@extends('layouts.app')
 
-    <div class="container py-4">
+@section('content')
 
-        <h2>IRIS Dashboard</h2>
+<h2 class="mb-4">
+    Dashboard
+</h2>
 
-        <p>IT Remote Inventory System</p>
+<div class="row">
+
+    <div class="col-md-3">
+
+        <div class="card shadow-sm">
+
+            <div class="card-body">
+
+                <h5>Total Assets</h5>
+
+                <h2>0</h2>
+
+            </div>
+
+        </div>
 
     </div>
 
-</x-app-layout>
+</div>
+
+@endsection
